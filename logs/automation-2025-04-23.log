@@ -1,0 +1,9 @@
+23:36:26.811 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+23:36:28.503 [main] INFO  pageObjects.BookingDetailsPage - Verified that element is displayed
+23:36:28.555 [main] INFO  pageObjects.BookingDetailsPage - Ticket is booked successfully
+23:37:10.169 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+23:37:11.950 [main] INFO  pageObjects.BookingDetailsPage - Verified that element is displayed
+23:37:11.993 [main] INFO  pageObjects.BookingDetailsPage - Ticket is booked successfully
+23:37:49.689 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+23:37:51.207 [main] INFO  pageObjects.BookingDetailsPage - Verified that element is displayed
+23:37:51.251 [main] INFO  pageObjects.BookingDetailsPage - Ticket is booked successfully

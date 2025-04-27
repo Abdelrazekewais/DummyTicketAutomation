@@ -1,0 +1,55 @@
+{
+  "OneWayFlight": {
+    "Flight-OneWayFrom": "30/3/2025",
+    "Flight-OneWayTo": "30/4/2025",
+    "Flight-OneWayDeparture": "30/4/2025",
+    "Flight-OneWayYear": "2025",
+    "Flight-OneWayMonth": "May",
+    "Flight-OneWayDate": "20"
+  },
+  "DateOfBirth": {
+    "Year": "2000",
+    "Month": "Apr",
+    "Date": "3"
+  },
+  "AdditionalDetails": {
+    "Country": "Egypt - 20",
+    "Contact-Number": "82735426212",
+    "email": "TestingDummyTicket@test.com",
+    "Title": "Mr",
+    "FirstName": "Tester",
+    "LastName": "Testing",
+    "Nationality": "Egypt",
+    "PurposeToBuyDummyTicket": "Visa Submission/Application",
+    "Message": "This is a message for testing purpose.",
+    "CardNumber": "4111 1111 1111 1111",
+    "City": "Cairo",
+    "PostalCode": "152432",
+    "EndMonth": "12",
+    "EndYear": "27",
+    "SecurityCode": "123"
+  },
+  "BuyTicketHotel": {
+    "StartYear": "2025",
+    "EndYear": "2026",
+    "StartMonth": "May",
+    "StartDate": "30",
+    "EndDate": "25",
+    "City": "Cairo"
+  },
+  "BothOneWayFlight": {
+    "From": "Egypt",
+    "To": "30/4/2025",
+    "DepartureYear": "2025",
+    "DepartureMonth": "May",
+    "DepartureDate": "20",
+    "City": "Cairo",
+    "CheckInDate": "1",
+    "CheckInMonth": "May",
+    "CheckInYear": "2025",
+    "CheckOutDate": "1",
+    "CheckOutMonth": "Aug",
+    "CheckOutYear": "2026",
+    "City2": "Cair"
+  }
+}

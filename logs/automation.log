@@ -1,0 +1,139 @@
+00:14:35.365 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+00:14:54.857 [main] INFO  pageObjects.BothTicketHomePage - Starting booking ticket with Round trip type...
+00:14:55.289 [main] INFO  pageObjects.BothTicketHomePage - Setting trip source
+00:14:56.090 [main] INFO  pageObjects.BothTicketHomePage - Setting trip destination
+00:14:56.881 [main] INFO  pageObjects.BothTicketHomePage - Providing departure date.
+00:14:59.039 [main] INFO  pageObjects.BothTicketHomePage - Providing return date.
+00:14:59.846 [main] INFO  pageObjects.BothTicketHomePage - Providing City.
+00:15:00.946 [main] INFO  pageObjects.BothTicketHomePage - Providing check in date.
+00:15:02.427 [main] INFO  pageObjects.BothTicketHomePage - Providing check out date.
+00:15:05.017 [main] INFO  pageObjects.BothTicketHomePage - pressing dummy ticket to book ticket.
+00:15:05.280 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+00:15:23.961 [main] INFO  pageObjects.BothTicketHomePage - Selecting Multi trip ticket type.
+00:15:24.110 [main] INFO  pageObjects.BothTicketHomePage - Providing Source.
+00:15:24.443 [main] INFO  pageObjects.BothTicketHomePage - Providing destination.
+00:15:24.620 [main] INFO  pageObjects.BothTicketHomePage - providing departure date.
+00:15:26.726 [main] INFO  pageObjects.BothTicketHomePage - providing city.
+00:15:27.921 [main] INFO  pageObjects.BothTicketHomePage - providing check in date.
+00:15:29.424 [main] INFO  pageObjects.BothTicketHomePage - providing check out date.
+00:15:32.138 [main] INFO  pageObjects.BothTicketHomePage - pressing dummy ticket button to reserve the ticket.
+00:15:32.398 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+00:15:54.151 [main] INFO  pageObjects.FlightTicketHomePage - Setting from date.
+00:15:54.538 [main] INFO  pageObjects.FlightTicketHomePage - Setting trip destination.
+00:15:54.770 [main] INFO  pageObjects.FlightTicketHomePage - Setting departure date.
+00:15:55.036 [main] INFO  pageObjects.FlightTicketHomePage - Selecting date from calendar.
+00:15:56.416 [main] INFO  pageObjects.FlightTicketHomePage - Clicking dummy ticket button.
+00:15:56.625 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+00:15:58.255 [main] INFO  pageObjects.BookingDetailsPage - Verified that element is displayed
+00:15:58.293 [main] INFO  pageObjects.BookingDetailsPage - Ticket is booked successfully
+00:15:58.293 [main] INFO  pageObjects.BookingDetailsPage - setting country code.
+00:15:58.583 [main] INFO  pageObjects.BookingDetailsPage - Setting contact number
+00:15:58.753 [main] INFO  pageObjects.BookingDetailsPage - Setting contact number
+00:15:58.976 [main] INFO  pageObjects.BookingDetailsPage - Setting passanger title
+00:15:59.132 [main] INFO  pageObjects.BookingDetailsPage - Setting first name.
+00:15:59.283 [main] INFO  pageObjects.BookingDetailsPage - Setting last name.
+00:15:59.432 [main] INFO  pageObjects.BookingDetailsPage - Setting nationality
+00:15:59.602 [main] INFO  pageObjects.BookingDetailsPage - Setting date of birth
+00:16:01.395 [main] INFO  pageObjects.BookingDetailsPage - Clicking next button
+00:16:01.691 [main] INFO  pageObjects.BookingDetailsPage - Setting receiving time.
+00:16:02.356 [main] INFO  pageObjects.BookingDetailsPage - Clicking dummy ticket button.
+00:16:02.519 [main] INFO  pageObjects.BookingDetailsPage - Writing a message.
+00:16:02.926 [main] INFO  pageObjects.SelectPaymentMethodPage - Changing currency.
+00:16:04.374 [main] INFO  pageObjects.SelectPaymentMethodPage - Making the payment.
+00:16:10.733 [main] INFO  pageObjects.OnlinePaymentPage - Verifying logo is displayed.
+00:16:10.847 [main] INFO  pageObjects.OnlinePaymentPage - Filling personal details.
+00:16:13.269 [main] INFO  pageObjects.OnlinePaymentPage - Choosing payment method.
+00:16:14.363 [main] INFO  pageObjects.OnlinePaymentPage - Verifying loader appears.
+00:16:30.781 [main] INFO  pageObjects.FlightTicketHomePage - Setting source.
+00:16:31.179 [main] INFO  pageObjects.FlightTicketHomePage - Setting destination.
+00:16:31.460 [main] INFO  pageObjects.FlightTicketHomePage - Setting departure.
+00:16:33.582 [main] INFO  pageObjects.FlightTicketHomePage - Selecting return date.
+00:16:38.088 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+00:16:39.515 [main] INFO  pageObjects.BookingDetailsPage - Verified that element is displayed
+00:16:39.549 [main] INFO  pageObjects.BookingDetailsPage - Ticket is booked successfully
+00:16:39.549 [main] INFO  pageObjects.BookingDetailsPage - setting country code.
+00:16:39.854 [main] INFO  pageObjects.BookingDetailsPage - Setting contact number
+00:16:40.072 [main] INFO  pageObjects.BookingDetailsPage - Setting contact number
+00:16:40.307 [main] INFO  pageObjects.BookingDetailsPage - Setting passanger title
+00:16:40.465 [main] INFO  pageObjects.BookingDetailsPage - Setting first name.
+00:16:40.631 [main] INFO  pageObjects.BookingDetailsPage - Setting last name.
+00:16:40.795 [main] INFO  pageObjects.BookingDetailsPage - Setting nationality
+00:16:40.965 [main] INFO  pageObjects.BookingDetailsPage - Setting date of birth
+00:16:42.475 [main] INFO  pageObjects.BookingDetailsPage - Clicking next button
+00:16:42.755 [main] INFO  pageObjects.BookingDetailsPage - Setting receiving time.
+00:16:43.293 [main] INFO  pageObjects.BookingDetailsPage - Clicking dummy ticket button.
+00:16:43.467 [main] INFO  pageObjects.BookingDetailsPage - Writing a message.
+00:16:45.210 [main] INFO  pageObjects.SelectPaymentMethodPage - Changing currency.
+00:16:45.386 [main] INFO  pageObjects.SelectPaymentMethodPage - Making the payment.
+00:16:51.083 [main] INFO  pageObjects.OnlinePaymentPage - Verifying logo is displayed.
+00:16:51.150 [main] INFO  pageObjects.OnlinePaymentPage - Filling personal details.
+00:16:52.312 [main] INFO  pageObjects.OnlinePaymentPage - Choosing payment method.
+00:16:53.308 [main] INFO  pageObjects.OnlinePaymentPage - Verifying loader appears.
+00:17:08.067 [main] INFO  pageObjects.FlightTicketHomePage - Selecting Multi trip ticket type.
+00:17:08.416 [main] INFO  pageObjects.FlightTicketHomePage - Setting source.
+00:17:08.681 [main] INFO  pageObjects.FlightTicketHomePage - Setting destination.
+00:17:08.930 [main] INFO  pageObjects.FlightTicketHomePage - Selecting departure date.
+00:17:10.799 [main] INFO  pageObjects.FlightTicketHomePage - clicking buy ticket button.
+00:17:11.151 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+00:17:12.758 [main] INFO  pageObjects.BookingDetailsPage - Verified that element is displayed
+00:17:12.795 [main] INFO  pageObjects.BookingDetailsPage - Ticket is booked successfully
+00:17:12.795 [main] INFO  pageObjects.BookingDetailsPage - setting country code.
+00:17:13.108 [main] INFO  pageObjects.BookingDetailsPage - Setting contact number
+00:17:13.296 [main] INFO  pageObjects.BookingDetailsPage - Setting contact number
+00:17:13.522 [main] INFO  pageObjects.BookingDetailsPage - Setting passanger title
+00:17:13.691 [main] INFO  pageObjects.BookingDetailsPage - Setting first name.
+00:17:13.846 [main] INFO  pageObjects.BookingDetailsPage - Setting last name.
+00:17:14.025 [main] INFO  pageObjects.BookingDetailsPage - Setting nationality
+00:17:14.186 [main] INFO  pageObjects.BookingDetailsPage - Setting date of birth
+00:17:15.715 [main] INFO  pageObjects.BookingDetailsPage - Clicking next button
+00:17:15.990 [main] INFO  pageObjects.BookingDetailsPage - Setting receiving time.
+00:17:16.496 [main] INFO  pageObjects.BookingDetailsPage - Clicking dummy ticket button.
+00:17:16.625 [main] INFO  pageObjects.BookingDetailsPage - Writing a message.
+00:17:16.929 [main] INFO  pageObjects.SelectPaymentMethodPage - Changing currency.
+00:17:18.692 [main] INFO  pageObjects.SelectPaymentMethodPage - Making the payment.
+00:17:25.515 [main] INFO  pageObjects.OnlinePaymentPage - Verifying logo is displayed.
+00:17:25.592 [main] INFO  pageObjects.OnlinePaymentPage - Filling personal details.
+00:17:27.261 [main] INFO  pageObjects.OnlinePaymentPage - Choosing payment method.
+00:17:28.441 [main] INFO  pageObjects.OnlinePaymentPage - Verifying loader appears.
+00:17:39.782 [main] INFO  tests.HomePageTests - Starting the test...
+00:17:50.285 [main] INFO  tests.HomePageTests - Starting the functionality of FAQ...
+00:18:02.142 [main] INFO  tests.HomePageTests - Starting the functionality of Blog...
+00:18:18.630 [main] INFO  tests.HomePageTests - Starting the functionality of B2B...
+00:18:32.358 [main] INFO  tests.HomePageTests - Starting the functionality of Phone Number...
+00:19:03.778 [main] INFO  tests.HomePageTests - Starting the functionality of FLIGHT tab...
+00:19:07.853 [main] INFO  pageObjects.FlightTicketHomePage - Clicking Flight tab.
+00:19:21.556 [main] INFO  tests.HomePageTests - Starting the functionality of Hotel tab...
+00:19:21.826 [main] INFO  pageObjects.HotelTicketHomePage - Validating hotel tab.
+00:19:35.441 [main] INFO  tests.HomePageTests - Starting the functionality of Both tab...
+00:19:52.495 [main] INFO  pageObjects.FlightTicketHomePage - Clicking buy ticket button.
+00:20:07.611 [main] INFO  pageObjects.FlightTicketHomePage - Setting source.
+00:20:23.358 [main] INFO  pageObjects.FlightTicketHomePage - Setting destination.
+00:20:42.013 [main] INFO  pageObjects.FlightTicketHomePage - Selecting departure.
+00:20:42.220 [main] INFO  pageObjects.FlightTicketHomePage - Clicking dummy ticket button.
+00:20:54.421 [main] INFO  pageObjects.HotelTicketHomePage - Providing city.
+00:20:55.156 [main] INFO  pageObjects.HotelTicketHomePage - Setting check in date.
+00:20:55.156 [main] INFO  pageObjects.HotelTicketHomePage - Setting check in date.
+00:20:56.940 [main] INFO  pageObjects.HotelTicketHomePage - Setting check out date.
+00:20:56.940 [main] INFO  pageObjects.HotelTicketHomePage - Setting check out date.
+00:21:00.673 [main] INFO  pageObjects.HotelTicketHomePage - Clicking buy ticket button.
+00:21:00.860 [main] INFO  pageObjects.BookingDetailsPage - Waiting to validate order summary
+00:21:02.412 [main] INFO  pageObjects.BookingDetailsPage - Verified that element is displayed
+00:21:02.440 [main] INFO  pageObjects.BookingDetailsPage - Ticket is booked successfully
+00:21:02.441 [main] INFO  pageObjects.BookingDetailsPage - setting country code.
+00:21:02.682 [main] INFO  pageObjects.BookingDetailsPage - Setting contact number
+00:21:02.867 [main] INFO  pageObjects.BookingDetailsPage - Setting contact number
+00:21:03.068 [main] INFO  pageObjects.BookingDetailsPage - Setting passenger title
+00:21:03.219 [main] INFO  pageObjects.BookingDetailsPage - Setting first name.
+00:21:03.365 [main] INFO  pageObjects.BookingDetailsPage - Setting last name.
+00:21:03.511 [main] INFO  pageObjects.BookingDetailsPage - Setting nationality
+00:21:03.671 [main] INFO  pageObjects.BookingDetailsPage - Setting date of birth
+00:21:05.011 [main] INFO  pageObjects.BookingDetailsPage - Clicking next button
+00:21:05.267 [main] INFO  pageObjects.BookingDetailsPage - Setting receiving time.
+00:21:05.683 [main] INFO  pageObjects.BookingDetailsPage - Clicking dummy ticket button.
+00:21:05.838 [main] INFO  pageObjects.BookingDetailsPage - Writing a message.
+00:21:06.169 [main] INFO  pageObjects.SelectPaymentMethodPage - Changing currency.
+00:21:07.501 [main] INFO  pageObjects.SelectPaymentMethodPage - Making the payment.
+00:21:13.837 [main] INFO  pageObjects.OnlinePaymentPage - Verifying logo is displayed.
+00:21:13.924 [main] INFO  pageObjects.OnlinePaymentPage - Filling personal details.
+00:21:16.614 [main] INFO  pageObjects.OnlinePaymentPage - Choosing payment method.
+00:21:18.424 [main] INFO  pageObjects.OnlinePaymentPage - Verifying loader appears.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite >
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/AhmedA37/OneDrive - Vodafone Group/Celestials Team/Other Automation Projects/Selenium Automation/DummyTicket/src/test/java/tests">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="tests.BothBookingTicketTests">
+                <methods>
+                    <include name="TestBookingTicketFromBothTabOneWay"/>
+                    <include name="TestBookingTicketFromBothTabRoundTrip"/>
+                    <include name="TestBookingTicketFromBothTabMultiTrip"/>
+                </methods>
+            </class>
+            <class name="tests.FlightBookingTicketTests">
+                <methods>
+                    <include name="VerifyBookingFromFlightTab"/>
+                    <include name="VerifyBookingFromFlightTabRoundTrip"/>
+                    <include name="VerifyBookingFromFlightTabMultiTrip"/>
+                </methods>
+            </class>
+            <class name="tests.HomePageTests">
+                <methods>
+                    <include name="verifyLogoDisplaying"/>
+                    <include name="VerifyFAQLinkFunctionality"/>
+                    <include name="VerifyBlogLinkFunctionality"/>
+                    <include name="VerifyB2BLinkFunctionality"/>
+                    <include name="VerifyPhoneNumberLinkFunctionality"/>
+                    <include name="VerifyFLIGHTTabFunctionality"/>
+                    <include name="VerifyHotelTabFunctionality"/>
+                    <include name="VerifyBothTabFunctionality"/>
+                    <include name="ValidateBuyTicketButtonFunctionality"/>
+                    <include name="validateInputFromFieldValidation"/>
+                    <include name="validateInputToFieldValidation"/>
+                    <include name="validateInputDepartureFieldValidation"/>
+                </methods>
+            </class>
+            <class name="tests.HotelBookingTicketTests">
+                <methods>
+                    <include name="VerifyBookingFromHotelTab"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
