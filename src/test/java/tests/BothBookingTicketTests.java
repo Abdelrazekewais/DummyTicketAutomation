@@ -1,10 +1,13 @@
 package tests;
 
+import io.qameta.allure.testng.AllureTestNg;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pageObjects.*;
 
 import java.io.IOException;
 
+@Listeners({AllureTestNg.class})
 public class BothBookingTicketTests extends BaseTest {
 
     @Test
@@ -24,7 +27,7 @@ public class BothBookingTicketTests extends BaseTest {
                 .setCountryCode()
                 .setContactNumber()
                 .setEmail()
-                .setPassangerTitle()
+                .setPassengerTitle()
                 .setFirstName()
                 .setLastName()
                 .setNationality()
@@ -41,8 +44,11 @@ public class BothBookingTicketTests extends BaseTest {
                 .verifyLoaderAppeare();
     }
 
+
+
     @Test
     public void TestBookingTicketFromBothTabRoundTrip() throws IOException, InterruptedException {
+
         new HomePage(driver)
                 .clickBothTab();
         new BothTicketHomePage(driver)
@@ -60,7 +66,7 @@ public class BothBookingTicketTests extends BaseTest {
                 .setCountryCode()
                 .setContactNumber()
                 .setEmail()
-                .setPassangerTitle()
+                .setPassengerTitle()
                 .setFirstName()
                 .setLastName()
                 .setNationality()
@@ -95,7 +101,7 @@ public class BothBookingTicketTests extends BaseTest {
                 .setCountryCode()
                 .setContactNumber()
                 .setEmail()
-                .setPassangerTitle()
+                .setPassengerTitle()
                 .setFirstName()
                 .setLastName()
                 .setNationality()

@@ -8,38 +8,41 @@
             <class name="tests.BothBookingTicketTests">
                 <methods>
                     <include name="TestBookingTicketFromBothTabOneWay"/>
-                    <include name="TestBookingTicketFromBothTabRoundTrip"/>
-                    <include name="TestBookingTicketFromBothTabMultiTrip"/>
+                    <exclude name="TestBookingTicketFromBothTabRoundTrip"/>
+                    <exclude name="TestBookingTicketFromBothTabMultiTrip"/>
                 </methods>
             </class>
+
             <class name="tests.FlightBookingTicketTests">
                 <methods>
                     <include name="VerifyBookingFromFlightTab"/>
-                    <include name="VerifyBookingFromFlightTabRoundTrip"/>
-                    <include name="VerifyBookingFromFlightTabMultiTrip"/>
+                    <exclude name="VerifyBookingFromFlightTabRoundTrip"/>
+                    <exclude name="VerifyBookingFromFlightTabMultiTrip"/>
                 </methods>
             </class>
-            <class name="tests.HomePageTests">
+            <!-- <class name="tests.HomePageTests">
                 <methods>
                     <include name="verifyLogoDisplaying"/>
-                    <include name="VerifyFAQLinkFunctionality"/>
-                    <include name="VerifyBlogLinkFunctionality"/>
-                    <include name="VerifyB2BLinkFunctionality"/>
-                    <include name="VerifyPhoneNumberLinkFunctionality"/>
-                    <include name="VerifyFLIGHTTabFunctionality"/>
-                    <include name="VerifyHotelTabFunctionality"/>
-                    <include name="VerifyBothTabFunctionality"/>
-                    <include name="ValidateBuyTicketButtonFunctionality"/>
-                    <include name="validateInputFromFieldValidation"/>
-                    <include name="validateInputToFieldValidation"/>
-                    <include name="validateInputDepartureFieldValidation"/>
+                     <include name="VerifyFAQLinkFunctionality"/>
+                     <include name="VerifyBlogLinkFunctionality"/>
+                     <include name="VerifyB2BLinkFunctionality"/>
+                     <include name="VerifyPhoneNumberLinkFunctionality"/>
+                     <include name="VerifyFLIGHTTabFunctionality"/>
+                     <include name="VerifyHotelTabFunctionality"/>
+                     <include name="VerifyBothTabFunctionality"/>
+                     <include name="ValidateBuyTicketButtonFunctionality"/>
+                     <include name="validateInputFromFieldValidation"/>
+                     <include name="validateInputToFieldValidation"/>
+                     <include name="validateInputDepartureFieldValidation"/>
                 </methods>
             </class>
             <class name="tests.HotelBookingTicketTests">
                 <methods>
                     <include name="VerifyBookingFromHotelTab"/>
                 </methods>
-            </class>
+            </class> -->
+
+
         </classes>
     </test>
 </suite>

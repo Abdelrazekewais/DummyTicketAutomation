@@ -36,9 +36,9 @@ public class BaseTest {
         logger = LogManager.getLogger(this.getClass());
         switch (browser.toLowerCase()) {
             case "edge":
-                EdgeOptions edgeOptions = new EdgeOptions();
-                edgeOptions.addArguments("--headless");
-                driver = new EdgeDriver(edgeOptions);
+                //EdgeOptions edgeOptions = new EdgeOptions();
+                //edgeOptions.addArguments("--headless");
+                driver = new EdgeDriver();
                 break;
             case "firefox":
                 FirefoxOptions options = new FirefoxOptions();

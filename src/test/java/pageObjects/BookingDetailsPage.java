@@ -75,8 +75,8 @@ public class BookingDetailsPage extends BasePage {
         return this;
     }
 
-    public BookingDetailsPage setPassangerTitle() throws IOException, InterruptedException {
-        info("Setting passanger title");
+    public BookingDetailsPage setPassengerTitle() throws IOException, InterruptedException {
+        info("Setting passenger title");
         select = new Select(getElement(PassangerTitle));
         select.selectByVisibleText(readData("AdditionalDetails.Title"));
         return this;

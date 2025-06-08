@@ -23,7 +23,7 @@ public class HotelBookingTicketTests extends BaseTest{
                 .setCountryCode()
                 .setContactNumber()
                 .setEmail()
-                .setPassangerTitle()
+                .setPassengerTitle()
                 .setFirstName()
                 .setLastName()
                 .setNationality()
